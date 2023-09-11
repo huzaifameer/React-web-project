@@ -16,7 +16,6 @@ export default function App() {
         <Route path="/Services" element={<Services/>}/>
         <Route path="/Contact" element={<Contact/>}/>
       </Routes>
-      <NavBar></NavBar>
       
     </div>
   );
