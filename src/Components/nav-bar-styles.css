@@ -38,7 +38,7 @@
   padding-right: 10px;
 }
 .nav-links:hover {
-  background-color: #01959a;
+  background-color: #33281E;
   color: #fff;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -57,7 +57,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 button:hover {
-  background-color: #151516;
+  background-color: #222;
   color: white;
 }
 .menu-icons {
