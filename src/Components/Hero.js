@@ -1,14 +1,14 @@
 import "./Hero-styles.css";
 
-function Hero() {
+function Hero(props) {
     return (
         <>
-        <div className="hero">
-            <img alt="Hero-Image" src="https://img.freepik.com/premium-photo/cup-coffee-beansgenerative-ai_391052-22577.jpg?w=1060" />
+        <div className={props.cName}>
+            <img alt="Hero-Image" src={props.heroImage} />
             <div className="hero-text">
-                <h1>Begin your journey With Us</h1>
-                <p>Providing a better service</p>
-                <a href="#">Our Plan</a>
+                <h1>{props.title}</h1>
+                <p>{props.text}</p>
+                <a href={props.url} className={props.btnClass}>{props.buttonText}</a>
             </div>
         </div>
         </>

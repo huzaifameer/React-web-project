@@ -4,7 +4,15 @@ function Home() {
     return (
         <>
         <NavBar/>
-        <Hero/>
+        <Hero
+        cName="hero"
+        heroImage="https://img.freepik.com/premium-photo/cup-coffee-beansgenerative-ai_391052-22577.jpg?w=1060"
+        title="Begin your journey With Us"
+        text="Providing a better service for you"
+        buttonText="Our Plan"
+        url="/"
+        btnClass="show"
+        />
         </>
     )
 }
