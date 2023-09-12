@@ -4,6 +4,8 @@ import javapic1 from "../Assets/java1.jpg"
 import javapic2 from "../Assets/java-pic.png"
 import jScript1 from "../Assets/javaScript1.jpeg"
 import jScript2 from "../Assets/jScript2.png"
+import htmlCss1 from "../Assets/htmlpic1.jpg"
+import htmlCss2 from "../Assets/htmlCss2.jpg"
 
 
 const Destination =()=>{
@@ -33,6 +35,18 @@ const Destination =()=>{
                 media1={jScript1}
                 media2={jScript2}
                 readMore="https://www.w3schools.com/js"
+             />
+             <DestinationDataFile
+                cName="first-desc"
+                heading = "HTML and CSS"
+                text="HTML (Hypertext Markup Language) defines the structure of web content using tags, while CSS 
+                    (Cascading Style Sheets) controls layout and presentation. They work in tandem to create visually
+                     appealing and structured web pages. HTML5 introduces multimedia support and improved semantics, 
+                     while CSS3 adds transitions, animations, and responsive design, making them indispensable for web 
+                     designers and developers."
+                media1={htmlCss1}
+                media2={htmlCss2}
+                readMore="https://www.w3schools.com/html"
              />
         </div>
     )
