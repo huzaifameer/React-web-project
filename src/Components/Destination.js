@@ -12,6 +12,7 @@ const Destination =()=>{
             <h1>What do we utilise most commonly</h1>
             <p>A lot of career opportunities, innovation, a wide range of industries, and remote employment choices.</p>
             <DestinationDataFile
+                cName="first-desc"
                 heading = "Java"
                 text="Java is a versatile, object-oriented programming language known for its portability across platforms. 
                     It is widely used in web development, Android app development, and enterprise software. Java boasts 
@@ -22,6 +23,7 @@ const Destination =()=>{
                 media2={javapic2}
              />
              <DestinationDataFile
+                cName="first-desc-reverse"
                 heading = "JavaScript"
                 text="JavaScript is a dynamic, high-level scripting language essential for web development. It enhances web 
                     interactivity by allowing real-time manipulation of web page elements in browsers. JavaScript powers modern

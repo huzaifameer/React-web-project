@@ -10,6 +10,13 @@
     justify-content: space-between;
     margin-top: 4.5rem;
 }
+.first-desc-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
 .desc-text{
     width: 45%;
     text-align: justify;
