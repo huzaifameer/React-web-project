@@ -11,8 +11,8 @@ class DestinationData extends Component{
                     <p>{this.props.text}</p>
                 </div>
                 <div className="image">
-                    <img alt="java-pic-1" src={this.props.media1}/>
-                    <img alt="java-pic-2" src={this.props.media2}/>
+                    <img alt="pic-1" src={this.props.media1}/>
+                    <img alt="pic-2" src={this.props.media2}/>
                 </div>    
             </div>
         )
