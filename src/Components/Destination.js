@@ -1,4 +1,6 @@
-import javapic1 from "../Assets/JavaImg1.png"
+import javapic1 from "../Assets/Java-Vdo-2.mp4"
+import javapic2 from "../Assets/java-pic.png"
+import "./Destination-styles.css"
 
 
 const Destination =()=>{
@@ -18,7 +20,8 @@ const Destination =()=>{
                     </p>
                 </div>
                 <div className="image">
-                    <img alt="Java-pic-1" src={javapic1} />
+                    <video controls src={javapic1} type="video/mp4" loop autoPlay />
+                    <img alt="java-pic-2" src={javapic2} />
                 </div>    
             </div> 
         </div>
