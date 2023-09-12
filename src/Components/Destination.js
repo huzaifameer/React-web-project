@@ -6,6 +6,10 @@ import jScript1 from "../Assets/javaScript1.jpeg"
 import jScript2 from "../Assets/jScript2.png"
 import htmlCss1 from "../Assets/htmlpic1.jpg"
 import htmlCss2 from "../Assets/htmlCss2.jpg"
+import phpBack1 from "../Assets/back-end1.jpg"
+import phpBack2 from "../Assets/back-end2.jpg"
+import pyhtonPic1 from "../Assets/python1.png"
+import pyhtonPic2 from "../Assets/python2.png"
 
 
 const Destination =()=>{
@@ -47,6 +51,30 @@ const Destination =()=>{
                 media1={htmlCss1}
                 media2={htmlCss2}
                 readMore="https://www.w3schools.com/html"
+             />
+             <DestinationDataFile
+                cName="first-desc-reverse"
+                heading = "PHP and back-end Technologies"
+                text="PHP (Hypertext Preprocessor) is a server-side scripting language used predominantly in web development.
+                    It dynamically generates web content within HTML, making it ideal for building web applications, content 
+                    management systems (CMS), and e-commerce platforms. PHP seamlessly integrates with databases like MySQL, 
+                    simplifying database-driven web applications. Despite competition from newer languages, PHP remains popular
+                     due to its simplicity and extensive community support."
+                media1={phpBack1}
+                media2={phpBack2}
+                readMore="https://www.w3schools.com/php"
+             />
+             <DestinationDataFile
+                cName="first-desc"
+                heading = "Python"
+                text="Python is a versatile, high-level programming language known for its readability and simplicity. It is 
+                    employed in web development, data analysis, scientific computing, artificial intelligence, and automation. 
+                    Python features robust web frameworks like Django and Flask, making it suitable for building scalable web 
+                    applications. Its extensive library ecosystem includes NumPy, pandas, and TensorFlow, catering to data science 
+                    and machine learning applications, while its cross-platform compatibility and active community foster widespread adoption."
+                media1={pyhtonPic1}
+                media2={pyhtonPic2}
+                readMore="https://www.w3schools.com/python"
              />
         </div>
     )
