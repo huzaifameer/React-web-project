@@ -46,6 +46,13 @@ img{
     letter-spacing: 2px;
     color: #222;
 }
+.hero-text .show:hover{
+    background-color: #31210A;
+    border: 2px solid #B6B6B6;
+    color: #fff;
+    padding: 1.2rem 2.1rem;
+    transition: all 0.2s ease-in-out;
+}
 .hero-text hide{
     display: none;
 }
