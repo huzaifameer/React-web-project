@@ -1,6 +1,7 @@
 import NavBar from "../Components/nav-bar";
 import Hero from "../Components/Hero";
 import HomePage from "../Assets/HomePagePic.png"
+import Destination from "../Components/Destination";
 function Home() {
     return (
         <>
@@ -14,6 +15,7 @@ function Home() {
         url="/"
         btnClass="show"
         />
+        <Destination></Destination>
         </>
     )
 }
