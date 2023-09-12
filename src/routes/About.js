@@ -7,11 +7,10 @@ function About() {
         <>
             <NavBar/>
             <Hero
-                cName="hero"
+                cName="hero-mid"
                 heroImage={AboutImage}
                 title="Discover more about us"
-                text="Providing a better service for you"
-                btnClass="show"
+                btnClass="hide"
         />
         </>
     )

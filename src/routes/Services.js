@@ -1,9 +1,16 @@
 import NavBar from "../Components/nav-bar";
+import Hero from "../Components/Hero";
+import ServicePic from "../Assets/ServicePic.png"
 function Services() {
     return (
         <>
             <NavBar/>
-            <h1>This is the Services Page</h1>
+            <Hero
+                cName="hero-mid"
+                heroImage={ServicePic}
+                title="Our Services"
+                btnClass="hide"
+        />
         </>
     )
 }
