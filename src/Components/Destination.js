@@ -1,7 +1,9 @@
 import DestinationDataFile from "./Destination-data"
 import "./Destination-styles.css"
-import javapic1 from "../Assets/Java-Vdo-2.mp4"
+import javapic1 from "../Assets/java1.jpg"
 import javapic2 from "../Assets/java-pic.png"
+import jScript1 from "../Assets/javaScript1.jpeg"
+import jScript2 from "../Assets/jScript2.png"
 
 
 const Destination =()=>{
@@ -18,6 +20,16 @@ const Destination =()=>{
                     frameworks like Spring and Hibernate."
                 media1={javapic1}
                 media2={javapic2}
+             />
+             <DestinationDataFile
+                heading = "JavaScript"
+                text="JavaScript is a dynamic, high-level scripting language essential for web development. It enhances web 
+                    interactivity by allowing real-time manipulation of web page elements in browsers. JavaScript powers modern
+                    web applications and can run on the server-side using Node.js. It is supported by an extensive ecosystem of 
+                    libraries and frameworks, including React and Angular, simplifying web development."
+                media1={jScript1}
+                media2={jScript2}
+                
              />
         </div>
     )
