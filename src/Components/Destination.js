@@ -21,6 +21,7 @@ const Destination =()=>{
                     frameworks like Spring and Hibernate."
                 media1={javapic1}
                 media2={javapic2}
+                readMore="https://www.w3schools.com/java"
              />
              <DestinationDataFile
                 cName="first-desc-reverse"
@@ -31,7 +32,7 @@ const Destination =()=>{
                     libraries and frameworks, including React and Angular, simplifying web development."
                 media1={jScript1}
                 media2={jScript2}
-                
+                readMore="https://www.w3schools.com/js"
              />
         </div>
     )

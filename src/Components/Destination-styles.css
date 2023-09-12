@@ -44,6 +44,25 @@
     top: -10%;
     right: 0;
 }
+.read-more{
+    display: flex;
+    align-items: center;
+}
+.read-more i{
+    margin-left: 10px;
+    border-radius: 100%;
+    background-color: #AAAAAA;
+    padding: 0.7rem;
+}
+.readMore-link{
+    text-decoration: none;
+    color: #001A2D !important;
+}
+.read-more i:hover{
+    background-color: #001A2D;
+    color: #fff;
+    cursor: pointer;
+}
 
 @media screen and (max-width:850px){
     .destination{
