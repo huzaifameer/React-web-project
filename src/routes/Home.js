@@ -3,6 +3,7 @@ import Hero from "../Components/Hero";
 import HomePage from "../Assets/HomePagePic.png"
 import Destination from "../Components/Destination";
 import Footer from "../Components/footer"
+import Project from "../Components/Project";
 function Home() {
     return (
         <>
@@ -17,6 +18,7 @@ function Home() {
         btnClass="show"
         />
         <Destination></Destination>
+        <Project/>
         <Footer/>
         </>
     )
