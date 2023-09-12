@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./Destination-styles.css"
 
 
+
 class DestinationData extends Component{
     render(){
         return(
@@ -16,7 +17,7 @@ class DestinationData extends Component{
                 <div className="image">
                     <img alt="pic-1" src={this.props.media1}/>
                     <img alt="pic-2" src={this.props.media2}/>
-                </div>    
+                </div>
             </div>
         )
     }

@@ -12,6 +12,7 @@ import pyhtonPic1 from "../Assets/python1.png"
 import pyhtonPic2 from "../Assets/python2.png"
 
 
+
 const Destination =()=>{
     return(
         <div className="destination">
