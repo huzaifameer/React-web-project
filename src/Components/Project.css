@@ -20,9 +20,36 @@
 }
 .p-image{
     height: 200px;
-    overflow: hidden;
+    
     border-radius: 7px;
 }
 .p-image img{
     width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+.p-image img:hover{
+    transform: scale(0.8);
+}
+.p-card h4{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.9rem 0 0.2rem 0;
+}
+
+@media screen and (max-width:800px) {
+    .project h1{
+        font-size: 2rem;
+    }
+    .project{
+        margin: 4rem 2rem;
+    }
+    .projectCard{
+        flex-direction: column;
+    }
+    .p-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
 }

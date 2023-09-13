@@ -23,6 +23,7 @@
     font-size: 1.1rem;
 }
 .desc-text h2{
+    text-align: left;
     padding-bottom: 1rem;
 }
 .image{
