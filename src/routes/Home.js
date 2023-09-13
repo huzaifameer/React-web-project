@@ -13,7 +13,7 @@ function Home() {
         heroImage={HomePage}
         title="Begin your journey With Us"
         text="Providing a better service for you"
-        buttonText="Our Projects"
+        buttonText="Official GitHub "
         url="https://github.com/huzaifameer"
         btnClass="show"
         />

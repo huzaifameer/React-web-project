@@ -39,7 +39,7 @@ img{
 .hero-text .show{
     text-decoration: none;
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 0.9rem 1.3rem;
     border-radius: 6px;
     font-size: 1.1rem;
     font-weight: bold;
@@ -47,10 +47,10 @@ img{
     color: #222;
 }
 .hero-text .show:hover{
-    background-color: #4C4842;
+    background-color: #221A14;
     border: 2px solid #B6B6B6;
     color: #fff;
-    padding: 1.2rem 2.1rem;
+    padding: 1rem 1.5rem;
     transition: all 0.2s ease-in-out;
 }
 .hero-text hide{
