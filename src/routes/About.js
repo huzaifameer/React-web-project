@@ -1,6 +1,7 @@
 import NavBar from "../Components/nav-bar";
 import Hero from "../Components/Hero";
 import AboutImage from "../Assets/AboutPagePic.png"
+import Footer from "../Components/footer"
 
 function About() {
     return (
@@ -12,6 +13,7 @@ function About() {
                 title="Discover more about us"
                 btnClass="hide"
         />
+        <Footer/>
         </>
     )
 }
