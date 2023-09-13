@@ -1,4 +1,5 @@
 import "./Project.css"
+import ProjectData from "./Project-data";
 
 function Project(){
     return(
