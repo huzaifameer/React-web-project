@@ -13,6 +13,7 @@ function Contact() {
                 heroImage={ContactPic}
                 title="Contact Us"
                 btnClass="hide"
+                iconClass="IconClass-not"
         />
         <ContactForm></ContactForm>
         <Footer/>

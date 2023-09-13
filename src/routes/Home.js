@@ -16,6 +16,7 @@ function Home() {
         buttonText="Official GitHub "
         url="https://github.com/huzaifameer"
         btnClass="show"
+        iconClass="IconClass fa-brands fa-github"
         />
         <Destination></Destination>
         <Project/>

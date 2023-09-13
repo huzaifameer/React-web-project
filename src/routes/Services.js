@@ -12,6 +12,7 @@ function Services() {
                 heroImage={ServicePic}
                 title="Our Services"
                 btnClass="hide"
+                iconClass="IconClass-not"
         />
         <Project/>
         <Footer/>

@@ -13,6 +13,7 @@ function About() {
                 heroImage={AboutImage}
                 title="Discover more about us"
                 btnClass="hide"
+                iconClass="IconClass-not"
         />
         <AboutUs/>
         <Footer/>
